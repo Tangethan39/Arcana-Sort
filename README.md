@@ -16,9 +16,6 @@ which is a character sorter dedicated to the
 ## Related Sorters
 Several others have created other sorters based on other concepts and series, see them [here](https://github.com/execfera/charasort/wiki)!
 
-## Creating Your Own Sorter
-This is a list of things you need to change for your sorter, for each file.
-
  * `index.html`
    * Sorter name: Change under `starting start button` and the `<title>` tags.
    * Starting banner images: 120px x 180px, under `left sort image` and `right sort image`.
@@ -146,8 +143,6 @@ This is a list of things you need to change for your sorter, for each file.
     ```
 
     In this case, this would create a "Filter by Series Appearance" option, with the three listed sub-options. "Flandre Scarlet" above has both `book` and `EoSD` under `series`, so unless you uncheck both "Books & CDs" and "Embodiment of Scarlet Devil", she would still appear in the sort.
-
-## Updating Your Own Sorter
 
 When you need to add more characters to your sorter, you must create a new data file with a new date, and include it in your `index.html` file under the `<script src="src/js/data.js"></script>` line, while keeping your previous data files also included.
 

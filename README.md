@@ -13,9 +13,6 @@ This was forked from [execfera/charasort](https://github.com/execfera/charasort)
 which is a character sorter dedicated to the
 [Touhou Project](https://en.wikipedia.org/wiki/Touhou_Project) game series.
 
-## Related Sorters
-Several others have created other sorters based on other concepts and series, see them [here](https://github.com/execfera/charasort/wiki)!
-
  * `index.html`
    * Sorter name: Change under `starting start button` and the `<title>` tags.
    * Starting banner images: 120px x 180px, under `left sort image` and `right sort image`.
